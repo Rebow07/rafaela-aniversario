@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Play, Pause, Volume2, VolumeX } from "lucide-react";
-import { config, createMediaSequence, getRandomMessage } from "@/lib/config";
+import { config, createMediaSequence, getRandomMessage } from "../lib/config";
 
 interface SlideshowProps {
   onComplete?: () => void;

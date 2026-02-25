@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { config } from "@/lib/config";
+import { config } from "../lib/config";
 
 interface EndingProps {
   onRestart: () => void;
