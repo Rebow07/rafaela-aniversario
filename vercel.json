@@ -1,8 +1,7 @@
 {
   "framework": "vite",
   "buildCommand": "pnpm run build",
-  "outputDirectory": "dist",
-  "rootDirectory": "client",
+  "outputDirectory": "client/dist",
   "rewrites": [
     {
       "source": "/(.*)",

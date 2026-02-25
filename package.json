@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "type": "module",
   "license": "MIT",
-  "scripts": {
-    "dev": "vite --host",
-    "build": "vite build",
+ "scripts": {
+    "dev": "vite client --host",
+    "build": "vite build client",
     "start": "NODE_ENV=production node dist/index.js",
-    "preview": "vite preview --host",
+    "preview": "vite preview client --host",
     "check": "tsc --noEmit",
     "format": "prettier --write ."
   },
