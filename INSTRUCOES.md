@@ -1,6 +1,6 @@
-# 🎂 Site de Aniversário Eliana - Instruções Completas
+# 🎂 Site de Aniversário Rafaela - Instruções Completas
 
-Bem-vindo! Este é um site cinematográfico e emocionante criado como presente de aniversário para Eliana.
+Bem-vindo! Este é um site cinematográfico e emocionante criado como presente de aniversário para Rafaela.
 
 ## 🚀 Como Executar Localmente
 

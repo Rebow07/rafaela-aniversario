@@ -265,3 +265,67 @@
 .animate-floating {
   animation: floatingParticles 3s ease-in infinite;
 }
+
+
+/* Logo KL - Elaborada e Discreta */
+.logo-kl {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.logo-kl:hover {
+  transform: scale(1.1);
+}
+
+/* Círculo externo com borda elegante */
+.logo-kl::before {
+  content: '';
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  border: 1.5px solid rgba(212, 175, 55, 0.4);
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.logo-kl:hover::before {
+  border-color: rgba(212, 175, 55, 0.8);
+  box-shadow: 0 0 12px rgba(212, 175, 55, 0.3);
+}
+
+/* Texto KL */
+.logo-kl-text {
+  position: relative;
+  z-index: 1;
+  font-family: 'Playfair Display', serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: rgba(212, 175, 55, 0.5);
+  transition: color 0.3s ease;
+}
+
+.logo-kl:hover .logo-kl-text {
+  color: rgba(212, 175, 55, 0.9);
+}
+
+/* Linha decorativa sutil */
+.logo-kl::after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.3), transparent);
+  bottom: 4px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.logo-kl:hover::after {
+  opacity: 1;
+}

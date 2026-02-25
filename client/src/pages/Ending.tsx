@@ -79,6 +79,17 @@ export default function Ending({ onRestart }: EndingProps) {
             Ver Novamente
           </motion.button>
         </motion.div>
+
+        {/* Logo KL */}
+        <a
+          href="https://www.linkedin.com/in/kelvin-loureiro-6a0714149"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="absolute bottom-4 right-4 logo-kl"
+          title="Criado por Kelvin Loureiro"
+        >
+          <span className="logo-kl-text">KL</span>
+        </a>
       </div>
     </div>
   );
